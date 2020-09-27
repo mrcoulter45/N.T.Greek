@@ -1,0 +1,25 @@
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import adjectives_img from '../images/adjectives_img.JPG';
+
+function Adjectives() {
+  return (
+    <Container fluid>
+      <Row noGutters>
+        <Col md="auto">
+          <img
+            src={ adjectives_img }
+            alt="adjectives_img"
+            style={{
+              width: '500px'
+            }}
+          />
+        </Col>
+      </Row>
+    </Container>
+  );
+}
+
+export default Adjectives;
