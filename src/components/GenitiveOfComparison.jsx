@@ -1,0 +1,25 @@
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import genitive_of_comparison_img from '../images/genitive_of_comparison_img.JPG';
+
+function GenitiveOfComparison() {
+  return (
+    <Container fluid>
+      <Row noGutters>
+        <Col md="auto">
+          <img
+            src={ genitive_of_comparison_img }
+            alt="genitive_of_comparison_img"
+            style={{
+              width: '500px'
+            }}
+          />
+        </Col>
+      </Row>
+    </Container>
+  );
+}
+
+export default GenitiveOfComparison;

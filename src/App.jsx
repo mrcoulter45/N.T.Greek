@@ -21,6 +21,17 @@ import Eiui from './components/Eiui';
 import GenitiveAbsolute from './components/GenitiveAbsolute';
 import ContractVerbs from './components/ContractVerbs';
 import FutureLiquidVerbs from './components/FutureLiquidVerbs';
+import ReflexivePronouns from './components/ReflexivePronouns';
+import ReciprocalPronoun from './components/ReciprocalPronoun';
+import Pas from './components/Pas';
+import Numerals from './components/Numerals';
+import InterrogativeAndIndefinitePronouns from './components/InterrogativeAndIndefinitePronouns';
+import RelativePronoun from './components/RelativePronoun';
+import GenitiveOfComparison from './components/GenitiveOfComparison';
+import ImperativeMood from './components/ImperativeMood';
+import Verbs from './components/Verbs';
+import Participles from './components/Participles';
+import VerbsInUi from './components/VerbsInUi';
 
 function App() {
   return (
@@ -31,21 +42,32 @@ function App() {
         <ProSidebar>
           <Menu iconShape="square">
             <MenuItem><h3>Home</h3> <Link to="/" /></MenuItem>
-            <MenuItem>Alphabet <Link to="/alphabet" /></MenuItem>
-            <MenuItem>Vowels <Link to="/vowels" /></MenuItem>
-            <MenuItem>Punctuation <Link to="/punctuation" /></MenuItem>
-            <MenuItem>Accent <Link to="/accent" /></MenuItem>
             <MenuItem>1st Declension <Link to="/firstdeclension" /></MenuItem>
             <MenuItem>2nd Declension <Link to="/seconddeclension" /></MenuItem>
             <MenuItem>3rd Declension <Link to="/thirddeclension" /></MenuItem>
+            <MenuItem>Accent <Link to="/accent" /></MenuItem>
             <MenuItem>Adjectives <Link to="/adjectives" /></MenuItem>
+            <MenuItem>Alphabet <Link to="/alphabet" /></MenuItem>
             <MenuItem>Article <Link to="/article" /></MenuItem>
-            <MenuItem>Personal Pronouns <Link to="/personalpronouns" /></MenuItem>
+            <MenuItem>Contract Verbs <Link to="/contractverbs" /></MenuItem>
             <MenuItem>Demonstrative Pronouns <Link to="/demonstrativepronouns" /></MenuItem>
             <MenuItem>είμί <Link to="/eiui" /></MenuItem>
-            <MenuItem>Genitive Absolute <Link to="/genitiveabsolute" /></MenuItem>
-            <MenuItem>Contract Verbs <Link to="/contractverbs" /></MenuItem>
             <MenuItem>Future Liquid Verbs <Link to="/futureliquidverbs" /></MenuItem>
+            <MenuItem>Genitive Absolute <Link to="/genitiveabsolute" /></MenuItem>
+            <MenuItem>Genitive of Comparison <Link to="/genitiveofcomparison" /></MenuItem>
+            <MenuItem>Imperative Mood <Link to="/imperativemood" /></MenuItem>
+            <MenuItem>Interrogative/Indefinite Pronouns <Link to="/interrogativeandindefinitepronouns" /></MenuItem>
+            <MenuItem>Numerals <Link to="/numerals" /></MenuItem>
+            <MenuItem>Participles <Link to="/participles" /></MenuItem>
+            <MenuItem>πας <Link to="/pas" /></MenuItem>
+            <MenuItem>Personal Pronouns <Link to="/personalpronouns" /></MenuItem>
+            <MenuItem>Punctuation <Link to="/punctuation" /></MenuItem>
+            <MenuItem>Reciprocal Pronoun <Link to="/reciprocalpronoun" /></MenuItem>
+            <MenuItem>Reflexive Pronouns <Link to="/reflexivepronouns" /></MenuItem>
+            <MenuItem>Relative Pronoun <Link to="/relativepronoun" /></MenuItem>
+            <MenuItem>Verbs <Link to="/verbs" /></MenuItem>
+            <MenuItem>Verbs In μι <Link to="/verbsinui" /></MenuItem>
+            <MenuItem>Vowels <Link to="/vowels" /></MenuItem>
           </Menu>
         </ProSidebar>
       </div>
@@ -101,6 +123,39 @@ function App() {
           </Route>
           <Route exact path="/futureliquidverbs">
             <FutureLiquidVerbs />
+          </Route>
+          <Route exact path="/reflexivepronouns">
+            <ReflexivePronouns />
+          </Route>
+          <Route exact path="/reciprocalpronoun">
+            <ReciprocalPronoun />
+          </Route>
+          <Route exact path="/pas">
+            <Pas />
+          </Route>
+          <Route exact path="/numerals">
+            <Numerals />
+          </Route>
+          <Route exact path="/interrogativeandindefinitepronouns">
+            <InterrogativeAndIndefinitePronouns />
+          </Route>
+          <Route exact path="/relativepronoun">
+            <RelativePronoun />
+          </Route>
+          <Route exact path="/genitiveofcomparison">
+            <GenitiveOfComparison />
+          </Route>
+          <Route exact path="/imperativemood">
+            <ImperativeMood />
+          </Route>
+          <Route exact path="/verbs">
+            <Verbs />
+          </Route>
+          <Route exact path="/participles">
+            <Participles />
+          </Route>
+          <Route exact path="/verbsinui">
+            <VerbsInUi />
           </Route>
         </Switch>
       </div>
