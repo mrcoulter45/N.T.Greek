@@ -2,16 +2,16 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import demonstrative_pronouns_img from '../images/demonstrative_pronouns_img.JPG';
+import demonstrative_adjectives_img from '../images/demonstrative_adjectives_img.JPG';
 
-function DemonstrativePronouns() {
+function DemonstrativeAdjectives() {
   return (
     <Container fluid>
       <Row noGutters>
         <Col md="auto">
           <img
-            src={ demonstrative_pronouns_img }
-            alt="demonstrative_pronouns_img"
+            src={ demonstrative_adjectives_img }
+            alt="demonstrative_adjectives_img"
             style={{
               width: '500px'
             }}
@@ -22,4 +22,4 @@ function DemonstrativePronouns() {
   );
 }
 
-export default DemonstrativePronouns;
+export default DemonstrativeAdjectives;

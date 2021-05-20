@@ -16,7 +16,7 @@ import ThirdDeclension from './components/ThirdDeclension';
 import Adjectives from './components/Adjectives';
 import Article from './components/Article';
 import PersonalPronouns from './components/PersonalPronouns';
-import DemonstrativePronouns from './components/DemonstrativePronouns';
+import DemonstrativeAdjectives from './components/DemonstrativeAdjectives';
 import Eiui from './components/Eiui';
 import GenitiveAbsolute from './components/GenitiveAbsolute';
 import ContractVerbs from './components/ContractVerbs';
@@ -50,8 +50,8 @@ function App() {
             <MenuItem>Alphabet <Link to="/alphabet" /></MenuItem>
             <MenuItem>Article <Link to="/article" /></MenuItem>
             <MenuItem>Contract Verbs <Link to="/contractverbs" /></MenuItem>
-            <MenuItem>Demonstrative Pronouns <Link to="/demonstrativepronouns" /></MenuItem>
-            <MenuItem>είμί <Link to="/eiui" /></MenuItem>
+            <MenuItem>Demonstrative Adjectives <Link to="/demonstrativeadjectives" /></MenuItem>
+            <MenuItem>εἰμί <Link to="/eiui" /></MenuItem>
             <MenuItem>Future Liquid Verbs <Link to="/futureliquidverbs" /></MenuItem>
             <MenuItem>Genitive Absolute <Link to="/genitiveabsolute" /></MenuItem>
             <MenuItem>Genitive of Comparison <Link to="/genitiveofcomparison" /></MenuItem>
@@ -59,7 +59,7 @@ function App() {
             <MenuItem>Interrogative/Indefinite Pronouns <Link to="/interrogativeandindefinitepronouns" /></MenuItem>
             <MenuItem>Numerals <Link to="/numerals" /></MenuItem>
             <MenuItem>Participles <Link to="/participles" /></MenuItem>
-            <MenuItem>πας <Link to="/pas" /></MenuItem>
+            <MenuItem>πᾶς <Link to="/pas" /></MenuItem>
             <MenuItem>Personal Pronouns <Link to="/personalpronouns" /></MenuItem>
             <MenuItem>Punctuation <Link to="/punctuation" /></MenuItem>
             <MenuItem>Reciprocal Pronoun <Link to="/reciprocalpronoun" /></MenuItem>
@@ -109,8 +109,8 @@ function App() {
           <Route exact path="/personalpronouns">
             <PersonalPronouns />
           </Route>
-          <Route exact path="/demonstrativepronouns">
-            <DemonstrativePronouns />
+          <Route exact path="/demonstrativeadjectives">
+            <DemonstrativeAdjectives />
           </Route>
           <Route exact path="/eiui">
             <Eiui />
