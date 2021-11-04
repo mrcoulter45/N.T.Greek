@@ -10,6 +10,7 @@ function Adjectives() {
       <Row noGutters>
         <Col md="auto">
           <img
+            className="imageBorder"
             src={ adjectives_img }
             alt="adjectives_img"
             style={{

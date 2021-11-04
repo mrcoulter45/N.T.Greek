@@ -10,6 +10,7 @@ function Alphabet() {
       <Row noGutters>
         <Col md="auto">
           <img
+            className="imageBorder"
             src={ alphabet_img }
             alt="alphabet_img"
             style={{

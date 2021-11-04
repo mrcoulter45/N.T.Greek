@@ -10,6 +10,7 @@ function ReciprocalPronoun() {
       <Row noGutters>
         <Col md="auto">
           <img
+            className="imageBorder"
             src={ reciprocal_pronoun_img }
             alt="reciprocal_pronoun_img"
             style={{

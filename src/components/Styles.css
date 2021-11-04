@@ -1,3 +1,15 @@
 .centerText {
   text-align: center;
 }
+.textBox {
+  margin: 10px;
+  padding: 10px;
+  background-color: #99dbff;
+  border-style: solid;
+  border-color: #384747;
+  border-radius: 30px;
+}
+.imageBorder {
+  border-style: solid;
+  border-color: #384747;
+}

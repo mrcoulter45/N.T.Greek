@@ -10,6 +10,7 @@ function GenitiveOfComparison() {
       <Row noGutters>
         <Col md="auto">
           <img
+            className="imageBorder"
             src={ genitive_of_comparison_img }
             alt="genitive_of_comparison_img"
             style={{

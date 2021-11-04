@@ -12,6 +12,7 @@ function Accent() {
       <Row noGutters>
         <Col md="auto">
           <img
+            className="imageBorder"
             src={ general_rules_of_accent_img }
             alt="general_rules_of_accent_img"
             style={{
@@ -21,6 +22,7 @@ function Accent() {
         </Col>
         <Col md="auto">
           <img
+            className="imageBorder"
             src={ rule_of_verb_accent_img }
             alt="rule_of_verb_accent_img"
             style={{
@@ -30,6 +32,7 @@ function Accent() {
         </Col>
         <Col md="auto">
           <img
+            className="imageBorder"
             src={ rule_of_noun_accent_img }
             alt="rule_of_noun_accent_img"
             style={{

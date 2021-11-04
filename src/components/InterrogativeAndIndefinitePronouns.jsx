@@ -11,6 +11,7 @@ function InterrogativeAndIndefinitePronouns() {
       <Row noGutters>
         <Col md="auto" style={{maxWidth: "500px"}}>
           <img
+            className="imageBorder"
             src={ interrogative_and_indefinite_pronouns0_img }
             alt="interrogative_and_indefinite_pronouns0_img"
             style={{
@@ -18,6 +19,7 @@ function InterrogativeAndIndefinitePronouns() {
             }}
           />
           <img
+            className="imageBorder"
             src={ interrogative_and_indefinite_pronouns1_img }
             alt="interrogative_and_indefinite_pronouns1_img"
             style={{

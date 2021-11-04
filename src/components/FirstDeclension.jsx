@@ -15,6 +15,7 @@ function FirstDeclension() {
           <div>
             <h5 className="centerText">Perfect Alpha</h5>
             <img
+              className="imageBorder"
               src={ first_declension_perf_alpha_img }
               alt="first_declension_perf_alpha_img"
               style={{
@@ -27,6 +28,7 @@ function FirstDeclension() {
           <div>
             <h5 className="centerText">Imperfect Alpha</h5>
             <img
+              className="imageBorder"
               src={ first_declension_imperf_alpha_img }
               alt="first_declension_imperf_alpha_img"
               style={{
@@ -39,6 +41,7 @@ function FirstDeclension() {
           <div>
             <h5 className="centerText">Perfect Eta</h5>
             <img
+              className="imageBorder"
               src={ first_declension_perf_eta_img }
               alt="first_declension_perf_eta_img"
               style={{

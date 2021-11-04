@@ -15,6 +15,7 @@ function VerbsInUi() {
       <Row noGutters>
         <Col md="auto" style={{maxWidth: "500px"}}>
           <img
+            className="imageBorder"
             src={ verbs_in_ui0 }
             alt="verbs_in_ui0"
             style={{
@@ -22,6 +23,7 @@ function VerbsInUi() {
             }}
           />
           <img
+            className="imageBorder"
             src={ verbs_in_ui1 }
             alt="verbs_in_ui1"
             style={{
@@ -31,6 +33,7 @@ function VerbsInUi() {
         </Col>
         <Col md="auto" style={{maxWidth: "500px"}}>
           <img
+            className="imageBorder"
             src={ verbs_in_ui2 }
             alt="verbs_in_ui2"
             style={{
@@ -38,6 +41,7 @@ function VerbsInUi() {
             }}
           />
           <img
+            className="imageBorder"
             src={ verbs_in_ui3 }
             alt="verbs_in_ui3"
             style={{
@@ -47,6 +51,7 @@ function VerbsInUi() {
         </Col>
         <Col md="auto" style={{maxWidth: "500px"}}>
           <img
+            className="imageBorder"
             src={ verbs_in_ui4 }
             alt="verbs_in_ui4"
             style={{
@@ -54,6 +59,7 @@ function VerbsInUi() {
             }}
           />
           <img
+            className="imageBorder"
             src={ verbs_in_ui5 }
             alt="verbs_in_ui5"
             style={{

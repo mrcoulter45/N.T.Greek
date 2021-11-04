@@ -14,6 +14,7 @@ function SecondDeclension() {
           <div>
             <h5 className="centerText">Masculine</h5>
             <img
+              className="imageBorder"
               src={ second_declension_masc_img }
               alt="second_declension_masc_img"
               style={{
@@ -26,6 +27,7 @@ function SecondDeclension() {
           <div>
             <h5 className="centerText">Neuter</h5>
             <img
+              className="imageBorder"
               src={ second_declension_neuter_img }
               alt="second_declension_neuter_img"
               style={{

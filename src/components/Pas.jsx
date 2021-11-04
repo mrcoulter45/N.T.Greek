@@ -11,6 +11,7 @@ function Pas() {
       <Row noGutters>
         <Col md="auto" style={{maxWidth: "500px"}}>
           <img
+            className="imageBorder"
             src={ pas0_img }
             alt="pas0_img"
             style={{
@@ -18,6 +19,7 @@ function Pas() {
             }}
           />
           <img
+            className="imageBorder"
             src={ pas1_img }
             alt="pas1_img"
             style={{

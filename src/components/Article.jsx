@@ -10,6 +10,7 @@ function Article() {
       <Row noGutters>
         <Col md="auto">
           <img
+            className="imageBorder"
             src={ article_img }
             alt="article_img"
             style={{

@@ -10,6 +10,7 @@ function Punctuation() {
       <Row noGutters>
         <Col md="auto">
           <img
+            className="imageBorder"
             src={ punctuation_img }
             alt="punctuation_img"
             style={{

@@ -9,7 +9,14 @@ function RelativePronoun() {
     <Container fluid>
       <Row noGutters>
         <Col md="auto">
+          <div className="textBox">
+            <h5>Rules</h5>
+            <ul>
+              <li>Relative pronoun agrees with its antecedent in gender, number, and person, but has its own case in its own clause</li>
+            </ul>
+          </div>
           <img
+            className="imageBorder"
             src={ relative_pronoun_img }
             alt="relative_pronoun_img"
             style={{

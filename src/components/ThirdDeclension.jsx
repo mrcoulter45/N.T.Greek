@@ -16,6 +16,7 @@ function ThirdDeclension() {
       <Row noGutters>
         <Col md="auto">
           <img
+            className="imageBorder"
             src={ third_declension_img }
             alt="third_declension_img"
             style={{
@@ -25,6 +26,7 @@ function ThirdDeclension() {
         </Col>
         <Col md="auto">
           <img
+            className="imageBorder"
             src={ third_declension_ua_img }
             alt="third_declension_ua_img"
             style={{
@@ -34,6 +36,7 @@ function ThirdDeclension() {
         </Col>
         <Col md="auto" style={{maxWidth: "500px"}}>
           <img
+            className="imageBorder"
             src={ third_declension0_img }
             alt="third_declension0_img"
             style={{
@@ -41,6 +44,7 @@ function ThirdDeclension() {
             }}
           />
           <img
+            className="imageBorder"
             src={ third_declension1_img }
             alt="third_declension1_img"
             style={{
@@ -48,6 +52,7 @@ function ThirdDeclension() {
             }}
           />
           <img
+            className="imageBorder"
             src={ third_declension2_img }
             alt="third_declension2_img"
             style={{
@@ -55,6 +60,7 @@ function ThirdDeclension() {
             }}
           />
           <img
+            className="imageBorder"
             src={ third_declension3_img }
             alt="third_declension3_img"
             style={{
@@ -62,6 +68,7 @@ function ThirdDeclension() {
             }}
           />
           <img
+            className="imageBorder"
             src={ third_declension4_img }
             alt="third_declension4_img"
             style={{

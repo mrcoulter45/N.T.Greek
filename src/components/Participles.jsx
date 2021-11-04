@@ -16,6 +16,7 @@ function Participles() {
       <Row noGutters>
         <Col md="auto" style={{maxWidth: "500px"}}>
           <img
+            className="imageBorder"
             src={ participles0_img }
             alt="participles0_img"
             style={{
@@ -23,6 +24,7 @@ function Participles() {
             }}
           />
           <img
+            className="imageBorder"
             src={ participles1_img }
             alt="participles1_img"
             style={{
@@ -32,6 +34,7 @@ function Participles() {
         </Col>
         <Col md="auto" style={{maxWidth: "500px"}}>
           <img
+            className="imageBorder"
             src={ participles2_img }
             alt="participles2_img"
             style={{
@@ -39,6 +42,7 @@ function Participles() {
             }}
           />
           <img
+            className="imageBorder"
             src={ participles4_img }
             alt="participles4_img"
             style={{
@@ -46,6 +50,7 @@ function Participles() {
             }}
           />
           <img
+            className="imageBorder"
             src={ participles3_img }
             alt="participles3_img"
             style={{
@@ -53,6 +58,7 @@ function Participles() {
             }}
           />
           <img
+            className="imageBorder"
             src={ participles5_img }
             alt="participles5_img"
             style={{
@@ -62,6 +68,7 @@ function Participles() {
         </Col>
         <Col>
           <img
+            className="imageBorder"
             src={ participles6_img }
             alt="participles6_img"
             style={{

@@ -10,7 +10,11 @@ function ContractVerbs() {
     <Container fluid>
       <Row noGutters>
         <Col md="auto">
+          <div className="textBox">
+            <h5>Contraction only occurs in the present system</h5>
+          </div>
           <img
+            className="imageBorder"
             src={ contraction0_img }
             alt="contraction0_img"
             style={{
@@ -20,6 +24,7 @@ function ContractVerbs() {
         </Col>
         <Col md="auto">
           <img
+            className="imageBorder"
             src={ contraction1_img }
             alt="contraction1_img"
             style={{

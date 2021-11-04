@@ -12,6 +12,7 @@ function GenitiveAbsolute() {
       <Row noGutters>
         <Col md="auto">
           <img
+            className="imageBorder"
             src={ gen_abs }
             alt="gen_abs"
             style={{
@@ -21,6 +22,7 @@ function GenitiveAbsolute() {
         </Col>
         <Col md="auto">
           <img
+            className="imageBorder"
             src={ gen_abs_ex0 }
             alt="gen_abs_ex0"
             style={{
@@ -30,6 +32,7 @@ function GenitiveAbsolute() {
         </Col>
         <Col md="auto">
           <img
+            className="imageBorder"
             src={ gen_abs_ex1 }
             alt="gen_abs_ex1"
             style={{

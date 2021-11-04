@@ -10,6 +10,7 @@ function FutureLiquidVerbs() {
       <Row noGutters>
         <Col md="auto">
           <img
+            className="imageBorder"
             src={ fut_liquid_verbs_img }
             alt="fut_liquid_verbs_img"
             style={{

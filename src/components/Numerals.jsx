@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import numerals_img from '../images/numerals_img.JPG';
+import numerals_3_and4_img from '../images/numerals_3_and4_img.JPG';
 
 function Numerals() {
   return (
@@ -10,8 +11,19 @@ function Numerals() {
       <Row noGutters>
         <Col md="auto">
           <img
+            className="imageBorder"
             src={ numerals_img }
             alt="numerals_img"
+            style={{
+              width: '500px'
+            }}
+          />
+        </Col>
+        <Col md="auto">
+          <img
+            className="imageBorder"
+            src={ numerals_3_and4_img }
+            alt="numerals_3_and4_img"
             style={{
               width: '500px'
             }}

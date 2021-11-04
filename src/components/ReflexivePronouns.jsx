@@ -12,6 +12,7 @@ function ReflexivePronouns() {
       <Row noGutters>
         <Col md="auto" style={{maxWidth: "500px"}}>
           <img
+            className="imageBorder"
             src={ reflexive_pronouns0_img }
             alt="reflexive_pronouns0_img"
             style={{
@@ -19,6 +20,7 @@ function ReflexivePronouns() {
             }}
           />
           <img
+            className="imageBorder"
             src={ reflexive_pronouns1_img }
             alt="reflexive_pronouns1_img"
             style={{
@@ -28,6 +30,7 @@ function ReflexivePronouns() {
         </Col>
         <Col md="auto">
           <img
+            className="imageBorder"
             src={ reflexive_pronouns2_img }
             alt="reflexive_pronouns2_img"
             style={{
