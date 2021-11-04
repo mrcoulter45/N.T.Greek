@@ -17,7 +17,7 @@ import Adjectives from './components/Adjectives';
 import Article from './components/Article';
 import PersonalPronouns from './components/PersonalPronouns';
 import DemonstrativeAdjectives from './components/DemonstrativeAdjectives';
-import Eiui from './components/είμί';
+import Eiui from './components/εἰμί';
 import GenitiveAbsolute from './components/GenitiveAbsolute';
 import ContractVerbs from './components/ContractVerbs';
 import FutureLiquidVerbs from './components/FutureLiquidVerbs';
@@ -57,7 +57,7 @@ function App() {
             <MenuItem>Conjunctions <Link to="/conjunctions" /></MenuItem>
             <MenuItem>Contract Verbs <Link to="/contractverbs" /></MenuItem>
             <MenuItem>Demonstrative Adjectives <Link to="/Demonstrativeadjectives" /></MenuItem>
-            <MenuItem>είμί <Link to="/είμί" /></MenuItem>
+            <MenuItem>εἰμί <Link to="/εἰμί" /></MenuItem>
             <MenuItem>Future Liquid Verbs <Link to="/futureliquidverbs" /></MenuItem>
             <MenuItem>Genitive Absolute <Link to="/genitiveabsolute" /></MenuItem>
             <MenuItem>Genitive of Comparison <Link to="/genitiveofcomparison" /></MenuItem>
@@ -68,7 +68,7 @@ function App() {
             <MenuItem>Numerals <Link to="/numerals" /></MenuItem>
             <MenuItem>Prepositions <Link to="/prepositions" /></MenuItem>
             <MenuItem>Participles <Link to="/participles" /></MenuItem>
-            <MenuItem>πας <Link to="/pas" /></MenuItem>
+            <MenuItem>πᾶς <Link to="/pas" /></MenuItem>
             <MenuItem>Personal Pronouns <Link to="/personalpronouns" /></MenuItem>
             <MenuItem>Punctuation <Link to="/punctuation" /></MenuItem>
             <MenuItem>Reciprocal Pronoun <Link to="/reciprocalpronoun" /></MenuItem>
@@ -122,7 +122,7 @@ function App() {
           <Route exact path="/demonstrativeadjectives">
             <DemonstrativeAdjectives />
           </Route>
-          <Route exact path="/είμί">
+          <Route exact path="/εἰμί">
             <Eiui />
           </Route>
           <Route exact path="/genitiveabsolute">

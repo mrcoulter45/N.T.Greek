@@ -2,8 +2,8 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import είμί_img from '../images/είμί_img.JPG';
-import είμί_present_active_participle_img from '../images/είμί_present_active_participle_img.JPG';
+import εἰμί_img from '../images/εἰμί_img.JPG';
+import εἰμί_present_active_participle_img from '../images/εἰμί_present_active_participle_img.JPG';
 
 function Eiui() {
   return (
@@ -12,8 +12,8 @@ function Eiui() {
         <Col md="auto">
           <img
             className="imageBorder"
-            src={ είμί_img }
-            alt="είμί_img"
+            src={ εἰμί_img }
+            alt="εἰμί_img"
             style={{
               width: '500px'
             }}
@@ -22,8 +22,8 @@ function Eiui() {
         <Col md="auto">
           <img
             className="imageBorder"
-            src={ είμί_present_active_participle_img }
-            alt="είμί_present_active_participle_img"
+            src={ εἰμί_present_active_participle_img }
+            alt="εἰμί_present_active_participle_img"
             style={{
               width: '500px'
             }}
@@ -35,7 +35,7 @@ function Eiui() {
           <div className="textBox">
             <h5>Rules</h5>
             <ul>
-              <li>είμί takes a nominative, called a predicate nominative, as a direct object</li>
+              <li>εἰμί takes a nominative, called a predicate nominative, as a direct object</li>
             </ul>
           </div>
         </Col>
