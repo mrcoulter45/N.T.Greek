@@ -66,10 +66,10 @@ function App() {
             <MenuItem>Interrogative/Indefinite Pronouns <Link to="/interrogativeandindefinitepronouns" /></MenuItem>
             <MenuItem>Nouns <Link to="/nouns" /></MenuItem>
             <MenuItem>Numerals <Link to="/numerals" /></MenuItem>
-            <MenuItem>Prepositions <Link to="/prepositions" /></MenuItem>
             <MenuItem>Participles <Link to="/participles" /></MenuItem>
             <MenuItem>πᾶς <Link to="/pas" /></MenuItem>
             <MenuItem>Personal Pronouns <Link to="/personalpronouns" /></MenuItem>
+            <MenuItem>Prepositions <Link to="/prepositions" /></MenuItem>
             <MenuItem>Punctuation <Link to="/punctuation" /></MenuItem>
             <MenuItem>Reciprocal Pronoun <Link to="/reciprocalpronoun" /></MenuItem>
             <MenuItem>Reflexive Pronouns <Link to="/reflexivepronouns" /></MenuItem>
