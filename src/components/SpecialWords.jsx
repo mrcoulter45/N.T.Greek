@@ -74,6 +74,13 @@ function SpecialWords() {
               </ul>
             </ul>
           </div>
+          <div className="textBox">
+            <h5>ποιέω</h5>
+            <ul>
+              <li>"I am doing": used most of the time</li>
+              <li>"I am making": used only when context makes sense</li>
+            </ul>
+          </div>
         </Col>
       </Row>
     </Container>

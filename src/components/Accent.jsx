@@ -41,6 +41,19 @@ function Accent() {
           />
         </Col>
       </Row>
+      <Row>
+        <Col>
+          <div className="textBox">
+            <h5>Words With Two Accent Marks</h5>
+            <ul>
+              <li>1 John 3:7 - "... τὴν δικαιοσύνην δίκαιός ἐστι ..."</li>
+              <ul>
+                <li>This is because the following "ἐστι" has no accent mark. Greek requires an accent every 3rd syllable, and ἐστι</li>
+              </ul>
+            </ul>
+          </div>
+        </Col>
+      </Row>
     </Container>
   );
 }
