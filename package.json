@@ -1,7 +1,11 @@
 {
   "name": "nt-greek",
-  "homepage": "https://mrcoulter45.github.io/nt-greek",
   "version": "0.1.0",
+  "homepage": "https://mrcoulter45.github.io/nt-greek",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mrcoulter45/nt-greek.git"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
